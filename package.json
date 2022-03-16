@@ -13,7 +13,7 @@
     "devv": "babel-node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "https://twitter.com/sunkwii",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.16.0",
