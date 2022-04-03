@@ -1,9 +1,3 @@
-import dotenv from 'dotenv'; dotenv.config();
+import dotenv from 'dotenv';
 
-
-(async () => {
-
-
- await 
-
-})
+dotenv.config();
