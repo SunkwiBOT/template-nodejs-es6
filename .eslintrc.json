@@ -1,17 +1,21 @@
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es2021": true
-    },
-    "extends": [
-        "standard"
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": [
+    "standard"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "semi": [
+      2,
+      "always"
     ],
-    "parserOptions": {
-        "ecmaVersion": 2018
-    },
-    "rules": {
-        "semi": [2, "always"],
-        "eqeqeq":"off"
-    }
+    "eqeqeq": "off",
+    "no-console": 1
+  }
 }
