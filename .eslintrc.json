@@ -5,7 +5,8 @@
     "es2021": true
   },
   "extends": [
-    "standard"
+    "standard",
+    "plugin:no-template-curly-in-string-fix/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2018
