@@ -16,21 +16,21 @@
   "author": "https://twitter.com/sunkwii",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.18.6",
-    "@babel/core": "^7.18.6",
-    "@babel/node": "^7.18.6",
-    "@babel/preset-env": "^7.16.4",
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4",
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "eslint": "^8.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-no-template-curly-in-string-fix": "^1.0.4",
-    "@babel/plugin-syntax-import-assertions": "^7.18.6",
-    "nodemon": "^2.0.15"
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.3"
   },
   "nodemonConfig": {
     "ignore": [
