@@ -9,7 +9,7 @@
     "plugin:no-template-curly-in-string-fix/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 2018
+    "ecmaVersion": 2020
   },
   "rules": {
     "semi": [
@@ -17,6 +17,9 @@
       "always"
     ],
     "eqeqeq": "off",
-    "no-console": 1
+    "no-console": 1,
+    "object-shorthand": "off",
+    "import/no-unresolved": "error",
+    "import/no-commonjs": "error"
   }
 }
