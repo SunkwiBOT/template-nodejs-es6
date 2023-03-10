@@ -7,11 +7,11 @@ process.on('unhandledRejection', (reason, p) => {
 });
 
 process.on('uncaughtException', (err, origin) => {
-  console.log(' [Error_Handling] :: Uncaught Exception/Catch');
+  console.log('[Error_Handling] :: Uncaught Exception/Catch');
   console.log(err, origin);
 });
 
 process.on('uncaughtExceptionMonitor', (err, origin) => {
-  console.log(' [Error_Handling] :: Uncaught Exception/Catch (MONITOR)');
+  console.log('[Error_Handling] :: Uncaught Exception/Catch (MONITOR)');
   console.log(err, origin);
 });
