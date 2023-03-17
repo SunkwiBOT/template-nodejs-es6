@@ -2,7 +2,7 @@
 import {} from 'dotenv/config';
 
 process.on('unhandledRejection', (reason, p) => {
-  console.log(' [Error_Handling] :: Unhandled Rejection/Catch');
+  console.log('[Error_Handling] :: Unhandled Rejection/Catch');
   console.log(reason, p);
 });
 
