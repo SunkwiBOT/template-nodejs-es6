@@ -20,6 +20,7 @@
     "no-console": 1,
     "object-shorthand": "off",
     "import/no-unresolved": "error",
-    "import/no-commonjs": "error"
+    "import/no-commonjs": "error",
+    "no-unused-vars": "warn"
   }
 }

@@ -14,7 +14,7 @@ log4js.configure({
       type: 'dateFile',
       numBackups: 100000000000000,
       alwaysIncludePattern: true,
-      filename: './log/twitch',
+      filename: './log/logs',
       pattern: 'yyyy-MM-dd.log',
       layout: {
         type: 'pattern',
@@ -39,4 +39,4 @@ const logger = log4js.getLogger();
 // logger.fatal('my info message');
 // logger.mark('my info message');
 
-export { logger };
+export default logger;
