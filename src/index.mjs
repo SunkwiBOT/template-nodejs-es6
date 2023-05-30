@@ -5,7 +5,7 @@ import logger from './logger.mjs';
 process.on('unhandledRejection', (reason, p) => {
   console.log('[Error_Handling] :: Unhandled Rejection/Catch');
   console.log(reason, p);
-  console.log('[Error_Handling] :: Unhandled Rejection/Catch', { reason, p });
+  logger.error('[Error_Handling] :: Unhandled Rejection/Catch', { reason, p });
 });
 
 process.on('uncaughtException', (err, origin) => {
@@ -19,3 +19,4 @@ process.on('uncaughtExceptionMonitor', (err, origin) => {
   console.log(err, origin);
   logger.error('[Error_Handling] :: Uncaught Exception/Catch (MONITOR)', { err, origin });
 });
+q
