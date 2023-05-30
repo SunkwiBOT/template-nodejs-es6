@@ -19,4 +19,3 @@ process.on('uncaughtExceptionMonitor', (err, origin) => {
   console.log(err, origin);
   logger.error('[Error_Handling] :: Uncaught Exception/Catch (MONITOR)', { err, origin });
 });
-q
